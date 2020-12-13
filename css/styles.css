@@ -1,0 +1,639 @@
+* {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat-light;
+}
+
+body {
+  background-color: #f0f2f0;
+  height: auto;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+li {
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+
+.collapse > .navbar-collapse > .navbar-nav > ul > .nav a:hover { color: red !important; }
+
+.bgImage {
+  background-image: url("../Images/claujnunez_hero_backgroundimg.png");
+  height: 650px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navheader > li {
+  margin-right: 0;
+  margin: 10px 50px 0px 0px;
+  color: #fff;
+}
+
+.logo-img {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 265px;
+  margin: 10px 15px 15px 10px;
+  padding: 10px 15px;
+  box-shadow: #525252;
+  float: left;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+.smallHead {
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -8%;
+  
+}
+
+.facepic {
+  width: 40%;
+  border-radius: 5%;
+}
+
+.nameTitle {
+  color: #fff;
+  position: absolute;
+  bottom: 27%;
+  font-size: 50px;
+  margin: 0 auto;
+  left: 11%;
+  right: 11%;
+  justify-content: center;
+}
+
+.description {
+  padding: 0 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.buttonsWrapper {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: -5%;
+}
+
+.socialDiv {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  right: 0%;
+  color: white;
+  width: 100%;
+}
+
+.iconsSocial {
+  /* background-color: yellow; */
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 5%;
+}
+
+.name {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  padding: 25px 0;
+}
+
+.inline-block {
+  text-align: center;
+  background-color: rgb(163, 163, 124);
+}
+
+.ul {
+  width: 50%;
+  margin-left: auto;
+}
+
+.content {
+  overflow: hidden;
+  /* background-color: lime; */
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.facepic{
+  display:inline-block;
+}
+
+.btn-primary {
+  width: 167px;
+  height: 48px;
+  background-color: #fff;
+  color: #722963;
+}
+
+.btn-primary:hover {
+  background-color: #91618e;
+}
+
+.btn-outline-secondary {
+  width: 167px;
+  height: 48px;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #722963;
+}
+
+.btn-outline-light {
+  margin-right: 40px;
+}
+
+/* vvvvvv  Prejects Sections vvvvvv */
+
+.row {
+  /* max-width: 50%; */
+
+  background-color: #f0f2f0;
+}
+
+#obtiCard {
+  max-width: 50%;
+  background-color: red;
+}
+
+#optiMealImg {
+  
+  width: 110%;
+}
+
+#cambioImg {
+  width: 80%;
+}
+
+.projectsSec {
+  /* background-color: red; */
+  margin-top: 50px;
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+  height: 50%;
+}
+
+.float-child {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.pictures {
+  height: 10%;
+}
+/* Removes white color from background on cards */
+.picCard,
+.picCard2,
+.textCard {
+  background-color: #f0f2f0;
+}
+
+.card {
+  border: none;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 100px; /* Added */
+}
+
+.card-title,
+.card-text {
+  margin: 15px;
+  /* background-color: rebeccapurple; */
+}
+
+.imgSoteria {
+  /* background-color: greenyellow; */
+  background-color: #f0f2f0;
+  width: auto;
+  max-height: 350px;
+  padding-left: 20px;
+}
+
+.imgCambio {
+  width: auto;
+  max-height: 350px;
+  padding-left: ;
+}
+
+.card-body {
+  background-color: #f0f2f0;
+  padding: 30 30 30 30;
+  /* padding-bottom: 30px; */
+  text-align: right;
+}
+
+.card-block {
+  /* background-color: blue; */
+  padding: 30 30 30 30;
+  margin-left: 10px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+#cambioCard {
+  width: 100%;
+}
+
+#soteria {
+  width: 50%;
+}
+
+#edgov {
+  width: 50%;
+}
+
+#cambio {
+  width: 50%;
+}
+
+.card-imgOdd {
+  background-color: #f0f2f0;
+  width: 100%;
+  max-height: 350px;
+}
+.cad-img {
+  width: 100%;
+}
+
+.soteria {
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.cambio {
+  /* background-color: yellow; */
+  display: flex;
+}
+/*  ^^^^^^^^^^ Projects Section ^^^^^^^^^^ */
+
+/* vvvvvv Soft Skills Section vvvvvvv */
+.container-fluid .col-md-8,
+.col-md-4 .col-md-6 {
+  background-color: red;
+}
+
+.imgIcon {
+  display: inline-block;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* align-items: center; */
+  /* background: #fafafa; */
+}
+.skillIcons {
+  display: inline-block;
+  width: 40%;
+}
+
+.btn-primary2 {
+  width: 167px;
+  height: 48px;
+  background-color: #f47af5;
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(166, 12, 166, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-primary2:hover {
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(166, 12, 166, 0.8);
+}
+
+.card-deck {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: auto;
+}
+
+.card-body2 {
+  color: white;
+  height: 100%;
+  background-color: #800b72;
+  padding: 0 40px 70px 50px;
+}
+
+.line {
+  margin: 80px 200px 0px 0px;
+  border: 1px solid pink;
+}
+
+.bottomTitle {
+  /* background-color: lime; */
+  text-align: left;
+  padding: 50px 0 40px 0;
+}
+
+.newList {
+  padding-left: 50px;
+}
+
+.newList li {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+/* ^^^^^^^^ Soft Skills Section ^^^^^^^^ */
+
+/* vvvvvvvvv Footer vvvvvvvvvvv */
+.page-footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer a {
+  padding: 10px;
+  margin: 0 5px;
+}
+a:hover {
+  border-bottom: 2px #fff solid;
+  color: black;
+}
+
+footer {
+  position: absolute;
+  bottom: auto;
+  background-color: #525252;
+  width: 100%;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+/* ^^^^^^^^  Footer  ^^^^^^^^ */
+
+/* ######################################### */
+
+/* Tablets and under resolutions */
+@media (max-width: 600px) {
+  /* card deck  */
+  .line {
+    margin: 80px 100px 0px 0px;
+    border: 1px solid pink;
+  }
+
+  .bottomTitle {
+    font-size: 33px;
+  }
+
+  .card-body2 {
+    width: 110%;
+    margin: 0px;
+    padding: 15px;
+  }
+
+  .container-fluid {
+    padding: 0px;
+  }
+}
+
+/* Mobile resolution */
+/*  Top Section Code */
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+  #projectsSection {
+    background-color: purple;
+    display: block;
+  }
+
+
+  .card {
+    margin-right: 5%;
+  }
+
+  .col-md-3,
+  .col-md-6 {
+    width: 100%;
+    float: left;
+    margin: 0;
+  }
+  /* vvvvvv Navigation Bar Code vvvvvv */
+
+  .navbar {
+
+    height: 110px;
+    padding: 0 5% 0 5%;
+  }
+
+  .navbar .flex {
+    display: block;
+  }
+
+  .navbar ul {
+    padding: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* ^^^^^^ Navigation Bar Code ^^^^^^^ */
+
+  /* vvvvvvvv  Jumbotron Seciton Code vvvvvv*/
+
+  .logo-mobile {
+    float: left;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    /* background-color: lime; */
+    padding: 5% 25% 0 25%;
+  }
+
+  .bgImage {
+    height: 600px;
+  }
+
+  .socialDiv {
+    position: absolute;
+    top: 105%;
+  }
+
+  .iconsSocial {
+    min-width: 20px;
+    /* background-color: red; */
+  }
+
+  .content {
+    overflow: hidden;
+    /* background-color: lime; */
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+  }
+
+  .smallHead {
+    /* background-color: red; */
+    display: block;
+    align-content: center;
+    text-align: center;
+    /* padding: 30 0 0 43%; */
+  }
+
+  .nameTitle {
+    position: absolute;
+    bottom: 32%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .description {
+    width: 100%;
+    text-align: center;
+    padding: 5 40;
+  }
+
+  .buttonsWrapper {
+    position: absolute;
+    padding: 0 0 0 40;
+    bottom: 0%;
+  }
+
+  .proSkills {
+    width: 90%;
+  }
+
+  /* vvvvvvvv Projects Middle Section Code vvvvvvvvvv */
+
+  .projectsSec {
+    margin: auto;
+  }
+
+
+  .card {
+    max-width: 80% !important;
+    margin-right: 10%;
+  }
+
+  .card-body {
+    display: block;
+    float: left;
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .imgSoteria {
+    position: relative;
+    justify-content: center;
+    padding: 0 30px 0 30px;
+    top: -0%;
+    left: -300px;
+    background-color: lightblue;
+  }
+
+  .textCard2 {
+    margin: 0 auto;
+    /* background-color: red; */
+  }
+
+  #soteriaText {
+    position: relative;
+    top: 100%;
+    /* background-color: lime; */
+  }
+
+  .picDivSoteria {
+    position: relative;
+    left: -40%;
+    width: 50%;
+    /* background-color: lightcoral; */
+  }
+
+  #picCard2 {
+    position: relative;
+    justify-content: center;
+    padding: 0 30px 0 30px;
+    top: -121%;
+    /* background-color: purple; */
+  }
+
+  #optiMealImg {
+    max-width: 100% !important;
+  }
+
+  #cambioCard {
+    position: relative;
+    top: 80%;
+    /* background-color: lime; */
+  }
+  #cambioImg {
+    max-width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .card-body.Odd {
+    display: block;
+    object-position: top;
+  }
+
+  .imgIcon {
+    position: relative;
+    margin-inline: 50px;
+  }
+
+  .card-imgOdd {
+    /* background-color: magenta; */
+    width: 0 auto;
+    margin: 0;
+    padding: 0%;
+  }
+
+  .card-block {
+    margin: 0;
+    padding: 0;
+  }
+}
