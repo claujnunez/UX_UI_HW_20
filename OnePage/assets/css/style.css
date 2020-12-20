@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #2487ce;
+  background: #F47AF5;
   color: #fff;
   border-radius: 5px;
   padding: 10px 30px 11px 30px;
@@ -277,8 +277,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #2079b8;
-  color: #fff;
+  background: #ffffff;
+  color: #F47AF5;
 }
 
 @media (max-width: 768px) {
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 200px;
+  padding-top: 250px;
 }
 
 #hero h1 {
@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   background: #ffffff;
-  color: ;
+  color: #F47AF5
 }
 
 #hero .icon-boxes {
@@ -539,7 +539,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 200px;
 }
 
 .section-title h2 {
@@ -547,7 +547,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-bottom: 0;
+  padding-bottom: 20px;
   color: #124265;
 }
 
@@ -555,6 +555,7 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: #919191;
+  
 }
 
 /*--------------------------------------------------------------
