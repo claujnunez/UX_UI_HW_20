@@ -45,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #2487ce;
+  background: #73226D;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #3e9bdd;
+  background: #F47AF5;
   color: #fff;
 }
 
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #16507b;
+  color: #73226D;
 }
 
 #header .logo img {
@@ -174,14 +174,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #124265;
+  color: #73226D;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #2487ce;
+  color: #F47AF5;
 }
 
 .nav-menu .drop-down ul {
@@ -215,11 +215,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #124265;
+  color: #73226D;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #2487ce;
+  color: #F47AF5;
 }
 
 .nav-menu .drop-down > a:after {
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  color: #73226D;
   transition: 0.3s;
 }
 
@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #F47AF5;
 }
 
 #hero .icon-box:hover {
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #F47AF5;
 }
 
 @media (min-width: 1024px) {
@@ -548,7 +548,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  color: #124265;
+  color: #73226D;
 }
 
 .section-title p {
@@ -625,7 +625,7 @@ section {
 
 .counts .count-box {
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .counts .count-box span {
@@ -633,7 +633,7 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #124265;
+  color: #73226D;
   margin-left: 80px;
   margin: auto;
 }
@@ -656,7 +656,7 @@ section {
 .about-video .content h3 {
   font-weight: 700;
   font-size: 24px;
-  color: #124265;
+  color: #73226D;
 }
 
 .about-video .content ul {
@@ -1308,7 +1308,7 @@ section {
   position: relative;
   overflow: hidden;
   background: #fefefe;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  box-shadow: 0px 5px 90px 0px rgba(43.92, 16.08, 38.82, 0.1);
 }
 
 .pricing .box h3 {
@@ -1317,12 +1317,12 @@ section {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #124265;
+  color: #73226D;
 }
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #2487ce;
+  color: #73226D;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1343,7 +1343,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #124265;
+  color: #73226D;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1367,23 +1367,23 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: #2487ce;
+  color: #73226D;
   transition: none;
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 2px solid #2487ce;
+  border: 2px solid #73226D;
 }
 
 .pricing .box .btn-buy:hover {
-  background: #2487ce;
+  background: #702963;
   color: #fff;
 }
 
 .pricing .featured {
-  background: #2487ce;
+  background: #73226D;
 }
 
 .pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na {
